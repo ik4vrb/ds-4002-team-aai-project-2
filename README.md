@@ -1,4 +1,4 @@
-# Painting Analysis
+# Paintings, Prices, and Characteristics
 
 ### Project Information
   - DS 4002
@@ -22,13 +22,13 @@ All the data for this project can be found in the [Data](https://github.com/ik4v
 
 |    Column     |  Description  |
 | ------------- | ------------- |
-| Response_id    | Book ID for each individual book |
-| Story_name     | The novel title |
-| Author         | The name of the author for each book |
-| Year_published | The year the book was published |
-| Genre          | A general genre the book belong to |
-| Response       | Around the first 250 word of each book |
-| num_words      | The exact number of words that the hook has |
+|     | |
+|      | |
+|          | |
+|  |  |
+|           |  |
+|        |  |
+|       |  |
 
 ## Visualizations 
 
