@@ -38,10 +38,10 @@ Character
 | painting_name | Name of the painting | Character |
 |estimated_price| The estimated price of the painting | Numeric |
 |     year      | The year that the painting was created| Numeric |
-|  time_period  | The general time frame of when the painting was created: | Character (factor variable) |
+|  time_period  | The general time frame of when the painting was created: 
                     - Before 1850
                     - 1850 to 1945
-                    - Postwar and contemporary   
+                    - Postwar and contemporary   | Character (factor variable) |
 |estimated_price_millions |  | |
 |  paint_type   |  | |
 |painting_material |  | |
