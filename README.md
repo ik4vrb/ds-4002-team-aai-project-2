@@ -19,16 +19,38 @@ All code used for this project can be found in the [SRC](https://github.com/ik4v
 All the data for this project can be found in the [Data](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/Data) folder.
 
 ### Main Data Set
+The type of paint and type of canvas
+Character
+The length and width of the painting 
+Character 
+The area of the painting
+Numeric
+The url where the image can be found
+Character
+The name of the image
+Character
 
-|    Column     |  Description  |
-| ------------- | ------------- |
-|     | |
-|      | |
-|          | |
-|  |  |
-|           |  |
-|        |  |
-|       |  |
+
+
+|    Column     |  Description  |   Responses  |
+| ------------- | ------------- |------------- |
+|    artist     | The name of the artist| Character |
+| painting_name | Name of the painting | Character |
+|estimated_price| The estimated price of the painting | Numeric |
+|     year      | The year that the painting was created| Numeric |
+|  time_period  | The general time frame of when the painting was created: | Character (factor variable) |
+                    - Before 1850
+                    - 1850 to 1945
+                    - Postwar and contemporary   
+|estimated_price_millions |  | |
+|  paint_type   |  | |
+|painting_material |  | |
+|  dimentions_cm |  | |
+|  area_cm2     |  | |
+|  image_url    |  | |
+|  image_name   |  | |
+
+
 
 ## Visualizations 
 
