@@ -19,14 +19,6 @@ All code used for this project can be found in the [SRC](https://github.com/ik4v
 All the data for this project can be found in the [Data](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/Data) folder.
 
 ### Main Data Set
-The area of the painting
-Numeric
-The url where the image can be found
-Character
-The name of the image
-Character
-
-
 
 |    Column     |  Description  |   Type  |
 | ------------- | ------------- |------------- |
@@ -34,7 +26,7 @@ Character
 | painting_name | Name of the painting | Character |
 |estimated_price| The estimated price of the painting in millions | Character |
 |     year      | The year that the painting was created| Numeric |
-|  time_period  | The general time frame of when the painting was created: - Before 1850 - 1850 to 1945 | Character (factor variable) |
+|  time_period  | The general time frame of when the painting was created: Before 1850, 1850 to 1945, and Postwar and contemporary  | Character (factor variable) |
 |estimated_price_millions | The estimated price of the painting in millions|  Numeric |
 |  paint_type   | The type of paint used in the painting | Character |
 |painting_material | The type of material the painting was painted on | Character |
