@@ -40,3 +40,5 @@ All the data for this project can be found in the [Data](https://github.com/ik4v
 ## Visualizations 
 
 ## Reference
+[1] G. Fernández, “The 200 Most Valuable Paintings in private hands” theartwolf.com, May. 2008. [Online]. Available: https://theartwolf.com/art-market/most-valuable-paintings/. [Accessed Oct. 8, 2023]
+[2] Ray, “Color, Shape, and Texture: Feature Extraction using OpenCV” medium.com, Feb. 19, 2022. [Online]. Available: https://medium.com/mlearning-ai/color-shape-and-texture-feature-extraction-using-opencv-cb1feb2dbdAccessed Oct. 7, 2023.
