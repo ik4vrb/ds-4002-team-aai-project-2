@@ -8,6 +8,9 @@
 
 ## Context
 
+Paintings are everywhere we look. Whether in our own houses or the doctor's waiting room, we see them all the time. Some paintings are really expensive while some paintings are cheap; however, have you wondered if certain characteristics such as color or date relate to the price of painting? There are various famous paintings throughout history, but there are some more valuable than others. We want to look into what characteristics make these paintings more expensive. 
+	For Project 2 we are going to look into the characteristics that associate with the 200 most expensive paintings. We want to see if certain colors, dates, or artists are associated with higher priced paintings. Many people are not aware of how paintings are priced. Next time you buy a painting for yourself it will help to know what makes it more or less expensive. 
+
 ## Repository Contents 
 All code used for this project can be found in the [SRC](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/SRC) folder.
 
@@ -38,6 +41,14 @@ All the data for this project can be found in the [Data](https://github.com/ik4v
 
 
 ## Visualizations 
+
+|    Figue ID     |  Figure Name  |  Description  |
+| ----------------| ------------- | ------------- |
+|               |  | |
+|                | | |
+|               | ||
+|                |  |
+
 
 ## Reference
 [1] G. Fernández, “The 200 Most Valuable Paintings in private hands” theartwolf.com, May. 2008. [Online]. Available: https://theartwolf.com/art-market/most-valuable-paintings/. [Accessed Oct. 8, 2023]
