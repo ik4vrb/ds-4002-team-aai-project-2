@@ -39,9 +39,9 @@ The second file is and RMD file that creates models comparing the metadata and c
 
 All the data for this project can be found in the [Data](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/Data) folder.
 There are two data sets in the folder:
-1. Main Data set
-2. An example of what the csv file outped by Image_Extractor.py should look like. 
-
+1. painting_medaD_final.csv: The Main Data set used to generate the whole project.
+2. Image_URL_Data.csv: An example of what the csv file outped by Image_Extractor.py should look like.
+   
 ### Main Data Set
 
 |    Column     |  Description  |   Type  |
