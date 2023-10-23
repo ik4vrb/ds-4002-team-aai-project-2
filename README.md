@@ -36,7 +36,11 @@ The first one is called DS_4002_Project_2.py and contains a script that parses t
 The second file is and RMD file that creates models comparing the metadata and characteristics from the python script with the prices for the paintings.
 
 ## Data
+
 All the data for this project can be found in the [Data](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/Data) folder.
+There are two data sets in the folder:
+1. Main Data set
+2. An example of what the csv file outped by Image_Extractor.py should look like. 
 
 ### Main Data Set
 
@@ -54,8 +58,6 @@ All the data for this project can be found in the [Data](https://github.com/ik4v
 |  area_cm2     | The area of the painting in cm^2 | Numeric |
 |  image_url    | The url where the image of the painting can be found | URL |
 |  image_name   | The name for the image url | Character |
-
-
 
 ## Visualizations 
 
