@@ -20,13 +20,13 @@ All code used for this project can be found in the [SRC](https://github.com/ik4v
 This project was created using Python. Here are the steps:
 
 1. Do a git clone or download the zip file to install everything.
-2. Open the DS_4002_Project_2.py file in an IDE that runs Python.
+2. Open the Image_Extractor.py file in an IDE that runs Python.
 3. Proceed by running the code, which will execute the code and output results for image entropy and number of colors used.
 NOTE: A csv file called "Image_URL_Data.csv" will be outputted from this code. Also, remember to install the necessary modules used in the script.
 4. Open the RMD file in an IDE that runs R, preferably RStudio or something like that.
 5. Run every chunk of the RMD to output results to build models comparing the metadata and characteristics.
 NOTE: If the pd.read_csv does not work, append "Data/" to the beginning of the string in the input. (EX: "Data/Image links - Sheet1.csv")
-An alternative to step 6 would be to move the files from Data into the same directory as the DS_4002_Project_2.py file.
+An alternative to step 6 would be to move the files from Data into the same directory as the Image_Extractor.py file.
 
 ### Code Usage
 
