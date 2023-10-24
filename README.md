@@ -38,6 +38,7 @@ The second file is and RMD file that creates models comparing the metadata and c
 ## Data
 
 All the data for this project can be found in the [Data](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/Data) folder.
+
 There are two data sets in the folder:
 1. painting_medaD_final.csv: The Main Data set used to generate the whole project.
 2. Image_URL_Data.csv: An example of what the csv file outped by Image_Extractor.py should look like.
@@ -60,13 +61,14 @@ There are two data sets in the folder:
 |  image_name   | The name for the image url | Character |
 
 ## Visualizations 
+All the visualizations for this project can be found in the [Figures](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/Figures) folder.
+
 
 |    Figue ID     |  Figure Name  |  Description  |
 | ----------------| ------------- | ------------- |
-|               |  | |
-|                | | |
-|               | ||
-|                |  |
+|  Figure 1       | Estimated Price by Time Period | Boxplot demonstrating the spread of price estimates within a given time period. The data base had three diferent time periods which is why there are only three box plots.|
+|  Figure 2       | Artist Count | This is a bargraph demontrateing how many paintings correponding to each artist are represented in the dataset. |
+|  Figure 3       | ||
 
 
 ## Reference
