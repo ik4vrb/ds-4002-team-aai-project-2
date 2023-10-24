@@ -13,8 +13,14 @@ Paintings are everywhere we look. Whether in our own houses or the doctor's wait
 For Project 2 we are going to look into the characteristics that associate with the 200 most expensive paintings. We want to see if certain colors, dates, or artists are associated with higher priced paintings. Many people are not aware of how paintings are priced. Next time you buy a painting for yourself it will help to know what makes it more or less expensive. 
 
 ## Repository Contents 
+
 All code used for this project can be found in the [SRC](https://github.com/ik4vrb/ds-4002-team-aai-project-2/tree/main/SRC) folder.
 
+This folder contains 3 files:
+1. data_scrapping_cleaning.Rmd : scraping and data cleaning
+2. Image_Extractor.py: extracting information from the pictures of the paining
+3. Model_building.r: code used to create our models
+ 
 ### Code Installing/Building
 
 This project was created using Python. Here are the steps:
