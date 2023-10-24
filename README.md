@@ -68,7 +68,7 @@ All the visualizations for this project can be found in the [Figures](https://gi
 | ----------------| ------------- | ------------- |
 |  Figure 1       | Estimated Price by Time Period | Boxplot demonstrating the spread of price estimates within a given time period. The data base had three diferent time periods which is why there are only three box plots.|
 |  Figure 2       | Artist Count | This is a bargraph demontrateing how many paintings correponding to each artist are represented in the dataset. |
-|  Figure 3       | ||
+|  Figure 3       | Average Price of Painting by Artist| This is a bragraph demontstrating the average estimaed price by the artist represented in our data set. |
 
 
 ## Reference
