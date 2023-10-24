@@ -1,0 +1,72 @@
+---
+title: "Data Scrapping and Cleaning"
+author: "Ana Cordova (Leader), Ishan Koroth, Ashley Huang"
+date: "2023-10-09"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(rvest)
+library(dplyr)
+library(tidyverse)
+setwd("/Users/anacristinacordova/Desktop/DSCP")
+```
+
+# 1.Data Scrapping 
+## 1.1 Reading in data information 
+```{r}
+#Top 200 paintings website reading
+website = "https://theartwolf.com/art-market/most-valuable-paintings/"
+
+page <- read_html(website)
+```
+
+## 1.2 Scrapping Metadata
+```{r}
+painting_metaD_raw <- html_element(page, "#footable_27646") %>%
+  html_table()
+```
+
+## 1.3 Scrapping  Images of The Paintings
+```{r}
+#First step of cleaning Metadata:
+painting_metaD_01 = painting_metaD_raw %>%
+  select(-Image, -Min, -"Estimate (min/max)", -Estimation, -References) %>%
+  rename(painting_name = Work, artist = Author, 
+         estimated_price_millions = "Estimated Value", 
+         year = Year, time_period = Period) %>%
+  filter(grepl("\\$.* million", estimated_price_millions, ignore.case = TRUE, perl = TRUE)) %>%
+  mutate(estimated_price = 
+           as.numeric(gsub("\\$| million", "", estimated_price_millions)),
+         description_02 = 
+           sapply(strsplit(as.character(Description),",\\s*"), 
+                  function(x) paste(x[1:2], collapse = ", ")))
+```
+
+```{r}
+#Extract the dataframe for some manual clean up
+write.csv(painting_metaD_01, "painting_medaD_01.csv", row.names = FALSE)
+```
+
+```{r}
+#Keep cleaning in R
+painting_medaD_02 = read.csv("painting_medaD_prefinal.csv")
+painting_medaD_final = painting_medaD_02 %>%
+  select(-Description)%>%
+  separate(col = material,            
+           into = c("materials", "dimentions_cm"), # New column 
+           sep = ",",                            
+           remove = FALSE) %>%
+  select(-material) %>%
+  rename(area_cm2 = area)
+```
+
+
+```{r}
+#extract csv
+write.csv(painting_medaD_final, "painting_medaD_final.csv", row.names = FALSE)
+```
+
+
+
